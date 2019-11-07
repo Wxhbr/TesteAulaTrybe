@@ -1,0 +1,18 @@
+curl -X POST -H "Content-Type: application/json" -d "{"escola":"Trybe"}" https://httpbin.org/anything
+{
+  "args": {}, 
+  "data": "{escola:Trybe}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Content-Length": "14", 
+    "Content-Type": "application/json", 
+    "Host": "httpbin.org", 
+    "User-Agent": "curl/7.58.0"
+  }, 
+  "json": null, 
+  "method": "POST", 
+  "origin": "177.74.232.139, 177.74.232.139", 
+  "url": "https://httpbin.org/anything"
+}

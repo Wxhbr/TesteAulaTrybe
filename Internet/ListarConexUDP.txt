@@ -1,0 +1,14 @@
+netstat -au
+Conexões Internet Ativas (servidores e estabelecidas)
+Proto Recv-Q Send-Q Endereço Local          Endereço Remoto         Estado      
+udp        0      0 juliocezar-340XAA:55121 gru14s13-in-f2.1e10:443 ESTABELECIDA
+udp        0      0 localhost:domain        0.0.0.0:*                          
+udp        0      0 0.0.0.0:bootpc          0.0.0.0:*                          
+udp        0      0 0.0.0.0:ipp             0.0.0.0:*                          
+udp        0      0 0.0.0.0:60522           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp6       0      0 [::]:44223              [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             

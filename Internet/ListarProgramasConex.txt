@@ -1,0 +1,84 @@
+sudo netstat -pt
+Conexões Internet Ativas (sem os servidores)
+Proto Recv-Q Send-Q Endereço Local          Endereço Remoto         Estado       PID/Program name    
+tcp        0      0 juliocezar-340XAA:60862 170.76.216.244:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:52932 a23-52-118-36.dep:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:50448 gru06s30-in-f14.1:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40424 159.127.41.105:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43410 lb-140-82-114-26-:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:37830 104.244.42.200:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44896 a23-5-34-110.depl:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:46334 a23-41-194-216.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:54688 8.43.72.41:https        ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43888 a23-5-34-110.depl:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43156 151.101.66.109:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:47028 a23-41-194-216.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57428 s.w.org:https           ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:51218 199.187.193.166:https   ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:53106 151.101.0.166:https     ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:43850 ec2-54-85-228-225:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57630 a23-41-149-204.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40544 ec2-54-151-59-250:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:50982 ec2-3-85-64-250.c:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:50048 a23-42-245-131.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:58504 a23-42-243-112.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:53082 e1-ha.ycpi.brd.ya:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:41614 94.31.29.32.ipyx-:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43920 104.36.115.111:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:39722 ec2-18-228-99-199:https ESTABELECIDA 2266/slack          
+tcp       32      0 juliocezar-340XAA:54538 ec2-34-196-234-21:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:46630 104.18.101.194:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44874 a72-246-133-234.d:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40616 ec2-52-9-76-70.us:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57286 a23-42-243-112.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:58550 151.101.128.106:https   ESTABELECIDA 2266/slack          
+tcp        0      0 juliocezar-340XAA:46056 151.101.130.49:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:45472 216.200.232.114:https   ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44064 110.113.95.34.bc.:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:54524 ec2-34-196-234-21:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40542 e1-ha.ycpi.bra.ya:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:46338 a23-41-194-216.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:52930 a23-52-118-36.dep:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40648 119.225.186.35.bc:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44714 151.101.129.253:https   ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57688 a23-42-243-112.de:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:59324 gru06s28-in-f244.:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:51482 ec2-34-205-5-82.c:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp      274      0 juliocezar-340XAA:50260 auth.geeksforgeek:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57036 server-99-84-27-6:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43326 ec2-18-205-93-209:https ESTABELECIDA 2369/zoom           
+tcp        0      0 juliocezar-340XAA:46622 139.140.244.35.bc:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:48540 162.248.19.152:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:57748 151.101.2.2:https       ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:60256 151.101.2.49:https      ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:58234 74.119.119.150:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:38638 151.101.93.108:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:54690 8.43.72.41:https        ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:47480 ec2-52-9-111-108.:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:58490 server-13-227-93-:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40426 server-99-84-31-1:https ESTABELECIDA 2266/slack          
+tcp       32      0 juliocezar-340XAA:43626 ec2-52-202-62-236:https ESPERANDO_FECHAR 2369/zoom           
+tcp        0      0 juliocezar-340XAA:42678 104.16.91.60:https      ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:40152 ec2-204-236-189-2:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:47152 a23-52-36-90.depl:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:48802 ce-in-f188.1e100.n:5228 ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:47254 ec2-52-9-111-108.:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:53246 a23-52-118-36.dep:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:56914 a173-223-36-113.d:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:47272 ec2-52-9-111-108.:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:58004 gru14s14-in-f16.1e:http ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:36752 ec2-3-217-52-129.:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44404 a72-246-216-42.de:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:50822 163.41.231.35.bc.:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:36096 cf.c0.3ea9.ip4.st:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:59980 57.210.227.35.bc.:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:58506 ec2-18-231-12-92.:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:54594 ec2-34-195-174-16:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:44402 a72-246-216-42.de:https ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:53538 ec2-54-164-189-39:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:43220 151.101.206.49:https    ESTABELECIDA 2498/chrome --type= 
+tcp       32      0 juliocezar-340XAA:56338 ec2-52-206-115-25:https ESPERANDO_FECHAR 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:38634 151.101.93.108:https    ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:51200 ec2-52-202-62-217:https ESTABELECIDA 2369/zoom           
+tcp        0      0 juliocezar-340XAA:51450 gru10s02-in-f174.:https ESTABELECIDA 2498/chrome --type= 
+tcp        0      0 juliocezar-340XAA:50274 104.19.196.151:https    ESTABELECIDA 2498/chrome --type= 
