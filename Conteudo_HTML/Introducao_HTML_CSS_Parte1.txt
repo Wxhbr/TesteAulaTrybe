@@ -1,0 +1,152 @@
+
+#Primeiro EXERCICIO--------------------------------------------------------------------------------------------------------------
+
+#Challenge: Write a Poem
+
+#Title your poem
+#To practice the basics of HTML, let's have you write and markup a poem. To start off with, what will the title of your poem be?
+
+#Using the <h1> tag we learned about, add a heading for your poem. This will be your title.
+
+#RESPOSTA:
+
+<html>
+    <head>
+        <title>Challenge: Write a Poem</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <h1>Jesus Cristo</h1>
+    </body>
+</html>
+
+#RESPOSTA com <p></p>
+
+<html>
+    <head>
+        <title>Challenge: Write a Poem</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+    <h1>Jesus Cristo</h1>
+    <p>
+        Subi num pé de manga <br>
+        pra apanhar jabuticaba <br>
+        a uva estava verde e eu desci cuma goiaba <br>
+        a vaca bota ovo e eu tiro o leito da galinha <br>
+        o trem anda na agua e o navio anda na linha </p>
+    
+    </body>
+</html>
+
+#Segundo EXERCICIO--------------------------------------------------------------------------------------------------------------
+
+#Challenge: You can learn text tags
+
+#Mark up the text
+#We've made this webpage with the words to 'You can learn anything', a video that Khan Academy made. 
+#Using both the <strong> and <em> tags that you just learned, 
+#mark up this text to show what you think should be emphasized and highlighted.
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: You can learn text tags</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p>
+        Nobody’s born smart. We all start at 0. Can’t talk, can’t walk, certainly can’t do algebra.<br>
+        Adding, reading, writing, riding a bike. Nobody’s good at anything at first.<br>
+        There was a time when Einstein couldn’t count to 10.<br>
+        And Shakespeare had to learn his ABCs just like the rest of us.<br>
+        <strong>Thankfully, we are born to learn.</strong><br>
+        Slowly. Surely. You stumble, slip, crawl, fall and fail and fall.<br>
+        Frustrating. Confusing. Trying. Struggling.<br>
+        Until one day, you walk.<br>
+        One foot in front of the other. One idea on top of the next.<br>
+        Each wrong answer making your brain a little bit <em>stronger.</em><br>
+        Failing is just another word for growing. And you keep going.<br>
+        This. is. <em>learning.</em><br>
+        It’s not that you don’t get it. <br>
+        You just don’t get it, yet.
+        Because the most beautiful, complex concepts in the whole universe<br>
+        are built on basic ideas that anyone, anywhere can understand.<br>
+        Whoever you are, wherever you are.<br>
+        </p>
+        <p>
+        You only have to know one thing:<br>
+        <strong>You can learn anything.</strong>
+        </p>
+    </body>
+</html>
+
+
+#Terceiro EXERCICIO--------------------------------------------------------------------------------------------------------------
+
+#Challenge: Your learning list
+
+#Start a list!
+#What do you want to learn? A lot, I bet! Let's make a numbered list of a few of the things. Remember how to start a numbered list?
+
+<!DOCTYPE HTML>
+
+<html>
+
+    <head>
+
+        <title>Challenge: Your learning list</title>
+
+        <meta charset="utf-8">
+
+    </head>
+
+    <body>
+        
+       <h1>Lista de aprendizado Trybers:</h1>
+       <ol>
+           <li>HTML</li>
+           <li>JAVASCRIPT</li>
+           <li>CSS</li>
+           <li>SOFT SKILLS</li>
+       </ol>
+        
+    </body>
+
+</html>
+
+#Quarto EXERCICIO--------------------------------------------------------------------------------------------------------------
+
+#Challenge: A picture-perfect trip
+
+#Add images
+#If you could take the perfect trip, where would you go? What animals would you see? 
+#What food would you eat? Add images to this webpage after each paragraph tag, to share your perfect trip with the world.
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Challenge: A picture-perfect trip</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>The perfect trip</h1>
+        
+        <img src="https://www.kasandbox.org/programming-images/space/octopus.png" alt="Viagem pelo mundo" width="150">
+        
+        <p>I would see scenes like...</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/space/planet.png" alt="Parque com arvores, grama e rochas" width="150">
+        
+        <p>And animals like...</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Jumping.png" alt="Hopper Jumping" width="100">
+        
+        <p>And eat food like...</p>
+        
+        <img src="https://www.kasandbox.org/programming-images/cute/EnemyBug.png" alt="Bugs" width="50">
+        
+    </body>
+</html>
+
