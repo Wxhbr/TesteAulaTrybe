@@ -1,0 +1,150 @@
+#Primeiro EXERCICIO
+
+#Challenge: Fancy font families
+
+#Change the base font family
+#Remember how to use element selectors from CSS Basics? 
+#Use the body selector to make a new CSS rule that changes the font-family of the entire page.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Fancy font families</title>
+        <style>
+        #flinstones {
+            font-family: monospace;
+        }
+        
+        #jetsons {
+            font-family: sans-serif;
+            
+        }
+        
+        #addams {
+            font-family: serif;
+            
+        }
+        
+        body {
+            font-family: monospace;
+        }
+        </style>
+    </head>
+    <body>
+    
+    <p>Some fun theme songs of well known TV families...</p>
+    
+    <h4>The Flinstones</h4>
+    <p id="flinstones">
+    Meet the Flintstones<br>
+    They're the modern stone age family<br>
+    From the town of Bedrock<br>
+    They're a page right of history</p>
+    
+    <h4>The Jetsons</h4>
+    <p id="jetsons">
+    Meet George Jetson,<br>
+    His Boy Elroy,<br>
+    Daughter Judy,<br>
+    Jane, His wife
+    </p>
+
+    <h4>The Addams Family</h4>
+    <p id="addams">
+    They're creepy and they're kooky,<br>
+    mysterious and spooky<br>
+    They're all together ooky,<br>
+    the Addams Family 
+    </p>
+    </body>
+</html>
+
+
+
+#Segundo EXERCICIO
+
+#Challenge: Great big font sizes
+
+#Make big font sizes
+#This webpage includes lyrics from a song about big words. 
+#We've put 'big' and 'bigger' classes on the <em>'s that describe big words, but we haven't styled them. 
+#Add a property to their CSS rules to make the size of the 'big' words big, and the size of the 'bigger' words even bigger. 
+#Use the same units for both properties.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Great big font sizes</title>
+        <style>
+            .big {
+                font-size: 20px;
+            }
+            
+            .bigger { 
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+
+<h1>Great Big Words</h1>
+<h2>by Michael Mark & Tom Chapin</h2>
+
+<p>When I was a little kid,
+a "<em class="big">diminutive juvenile</em>," <br>
+I liked my folks to read to me,
+I was an <em class="big">"eager bibliophile."</em> <br>
+Now I love words for how they sound <br>
+
+
+#Terceiro EXERCICIO
+
+#Challenge: Famous font formats
+
+#Make bold declarations
+#Add a CSS rule that makes all of the declarations have a bold font weight, 
+#so they'll look like they were said in a loud voic
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Famous font formats</title>
+        <style>
+            .declaration { 
+                font-weight: bold;
+            }
+            
+            .quote {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+
+    <h2>Famous quotes</h2>
+    <p class="quote">
+    "My mama always said life was like a box of chocolates. You never know what you're gonna get.".
+    <br> - Forrest Gump
+    </p>
+    
+    <p class="quote">
+    "May the force be with you."
+    <br>- Star Wars
+    </p>
+    
+     <h2>Famous declarations</h2>
+     
+    <p class="declaration">
+    I'M BATMAN.
+    </p>
+    
+    <p class="declaration">
+    Earth, water, fire. Together, we are CAPTAIN PLANET!
+    </p>
+    
+    </body>
+</html>
