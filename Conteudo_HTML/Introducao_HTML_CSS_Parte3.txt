@@ -1,4 +1,4 @@
-#Primeiro EXERCICIO
+#Primeiro EXERCICIO-------------------------------------------------------------------------
 
 #Challenge: Colorful creature
 
@@ -40,7 +40,7 @@
 
 
 
-#Segundo EXERCICIO
+#Segundo EXERCICIO-------------------------------------------------------------------------
 
 #Challenge: Seasonal ids
 
@@ -80,7 +80,7 @@
 </html>
 
 
-#Terceiro EXERCICIO
+#Terceiro EXERCICIO-------------------------------------------------------------------------
 
 #Challenge: Apples and bananas classes
 
