@@ -1,0 +1,39 @@
+#Primeiro EXERCICIO
+
+#Challenge: Colorful creature
+
+#Match the heading color
+#Finally, add a CSS rule to change the color of the heading,
+#inspired by the creature's colors.
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Colorful creature</title>
+        <style>
+            body {
+                background-color: rgb(204, 214, 245);
+            }
+            
+            p {
+                color: rgb(17, 54, 240);
+            }
+            
+            h1 {
+                color: rgb(7, 47, 168);
+            }
+        </style>
+        
+        
+    </head>
+    <body>
+       
+        <h1>The coolest creature</h1>
+        
+        <img src="https://www.kasandbox.org/programming-images/avatars/aqualine-seedling.png">
+        
+        <p>A <em>Chicolita</em> é sensacional porque ela é o <strong>melhor</strong> pokemon que vc pode escolher no inicio da sua jornada.</p>
+        
+    </body>
+</html>
