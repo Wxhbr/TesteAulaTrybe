@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <div id="pai">Pai
+        <div id="primeiroFilho">Primeiro Filho</div>
+        <div id="elementoOndeVoceEsta">Onde vc esta
+          <div id="primeiroFilhoDoFilho">Primeiro filho do filho</div>
+          <div id="segundoEUltimoFilhoDoFilho">segundo e ultimo filho do filho</div>
+        </div>
+        <div id="terceiroFilho">terceiro filho</div>
+        <div id="quartoEUltimoFilho">quarto e ultimo filho</div>
+      </div>
+</body>
+<script>
+console.log(
+
+//document.querySelector("#elementoOndeVoceEsta")
+//document.querySelector("#elementoOndeVoceEsta").parentNode.style.color = "red"
+//document.getElementById("primeiroFilhoDoFilho").innerHTML = "Hello World"
+//document.querySelector("#pai").childNodes[1]
+//document.querySelector("#elementoOndeVoceEsta").previousSibling.previousSibling
+//document.querySelector("#elementoOndeVoceEsta").nextSibling.nextSibling
+//document.querySelector("#pai").childNodes[5]
+//document.querySelector("#pai").childNodes
+
+)
+
+var div = document.createElement("div");
+div.innerHTML = "Novo Filho Pai."
+
+document.getElementById("pai").appendChild(div)
+
+var div2 = document.createElement("div");
+div2.innerHTML = "Novo Filho ElementoOndeVoceEsta."
+
+document.getElementById("elementoOndeVoceEsta").appendChild(div2)
+
+var div3 = document.createElement("div");
+div3.innerHTML = "Novo Filho do PrimeiroFilhoDoFilho."
+
+document.getElementById("primeiroFilhoDoFilho").appendChild(div3)
+
+console.log (div2);
+console.log (div3.parentNode.parentNode.nextSibling.nextSibling)
+
+var list = document.getElementById("pai");
+
+list.removeChild(list.childNodes[9]);
+list.removeChild(list.childNodes[7]);
+list.removeChild(list.childNodes[5]);
+list.childNodes[3].removeChild(div2);
+list.childNodes[3].removeChild(list.childNodes[3].childNodes[3]);
+list.childNodes[3].childNodes[1].removeChild(list.childNodes[3].childNodes[1].childNodes[1])
+list.removeChild(list.childNodes[1]);
+
+
+</script>
+</html>
